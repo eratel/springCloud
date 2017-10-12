@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: EUREKA-HA
+  profiles:
+    active: peer2
+---
+server:
+  port: 9000
+spring:
+  profiles: peer1
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    serviceUrl:
+      defaultZone: http://peer2:9001/eureka/
+---
+server:
+  port: 9001
+spring:
+  profiles: peer2
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:9000/eureka/
