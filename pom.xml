@@ -18,6 +18,7 @@
 		<module>movie-fegin-customizing</module>
 		<module>eureka-ha</module>
 		<module>movie-fegin-factory</module>
+		<module>hystrix-dashboard</module>
 	</modules>
 
 	<parent>
