@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+//添加 fallback = HystrixClientFallback.class  代表使用断路器
 @FeignClient(value = "USER",fallback = HystrixClientFallback.class)
 public interface UserFeignClient
 {

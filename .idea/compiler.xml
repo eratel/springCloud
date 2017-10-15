@@ -11,6 +11,7 @@
         <module name="movie" />
         <module name="movie-fegin" />
         <module name="movie-fegin-customizing" />
+        <module name="movie-fegin-factory" />
         <module name="movie-fegin-hystrix" />
         <module name="springcloud-demo" />
         <module name="user" />
@@ -22,6 +23,7 @@
       <module name="movie" target="1.8" />
       <module name="movie-fegin" target="1.8" />
       <module name="movie-fegin-customizing" target="1.8" />
+      <module name="movie-fegin-factory" target="1.8" />
       <module name="movie-fegin-hystrix" target="1.8" />
       <module name="springcloud-demo" target="1.8" />
       <module name="user" target="1.8" />

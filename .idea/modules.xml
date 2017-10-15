@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/movie/movie.iml" filepath="$PROJECT_DIR$/movie/movie.iml" />
       <module fileurl="file://$PROJECT_DIR$/movie-fegin/movie-fegin.iml" filepath="$PROJECT_DIR$/movie-fegin/movie-fegin.iml" />
       <module fileurl="file://$PROJECT_DIR$/movie-fegin-customizing/movie-fegin-customizing.iml" filepath="$PROJECT_DIR$/movie-fegin-customizing/movie-fegin-customizing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-fegin-factory/movie-fegin-factory.iml" filepath="$PROJECT_DIR$/movie-fegin-factory/movie-fegin-factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/movie-fegin-hystrix/movie-fegin-hystrix.iml" filepath="$PROJECT_DIR$/movie-fegin-hystrix/movie-fegin-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-demo.iml" filepath="$PROJECT_DIR$/springcloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
