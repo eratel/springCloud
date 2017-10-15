@@ -9,6 +9,7 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableEurekaClient
 //Feign
 @EnableFeignClients
+//Hystrix factory
 public class MovieFeginFactryApplication
 {
 
