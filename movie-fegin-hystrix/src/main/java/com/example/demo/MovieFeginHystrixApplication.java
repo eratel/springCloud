@@ -18,9 +18,10 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableFeignClients
 //hystrix.stream
 @EnableCircuitBreaker
-public class MovieFeginApplication {
+public class MovieFeginHystrixApplication
+{
 
 	public static void main(String[] args) {
-		SpringApplication.run(MovieFeginApplication.class, args);
+		SpringApplication.run(MovieFeginHystrixApplication.class, args);
 	}
 }
