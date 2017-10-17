@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Bean;
  * @Date: Created in 2017 13:04 2017/10/8 0008
  */
 @SpringBootConfiguration
+@ExcludeFromComponentScan
 public class TestConfig
 {
     @Bean

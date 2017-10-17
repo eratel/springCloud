@@ -9,6 +9,7 @@
         <module name="eureka" />
         <module name="eureka-ha" />
         <module name="hystrix-dashboard" />
+        <module name="hystrix-turbine" />
         <module name="movie" />
         <module name="movie-fegin" />
         <module name="movie-fegin-customizing" />
@@ -22,6 +23,7 @@
       <module name="eureka" target="1.8" />
       <module name="eureka-ha" target="1.8" />
       <module name="hystrix-dashboard" target="1.8" />
+      <module name="hystrix-turbine" target="1.8" />
       <module name="movie" target="1.8" />
       <module name="movie-fegin" target="1.8" />
       <module name="movie-fegin-customizing" target="1.8" />

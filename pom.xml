@@ -20,6 +20,7 @@
 		<module>movie-fegin-factory</module>
 		<module>hystrix-dashboard</module>
 		<module>movie-fegin-hystrix</module>
+		<module>hystrix-turbine</module>
 	</modules>
 
 	<parent>
