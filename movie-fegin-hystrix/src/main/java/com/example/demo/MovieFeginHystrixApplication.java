@@ -10,7 +10,8 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
  * @params: No such property: code for class: Script1
  * @Author:jikai.sun
  * @Date: Created in 23:53 2017/10/15 0015
- * @Description: hystrix 断路器
+ * @Description: hystrix 断路器   某个节点单独使用短路器  看conf package
+ *
  */
 @SpringBootApplication
 @EnableEurekaClient
