@@ -4,6 +4,7 @@ import com.example.demo.pojo.User;
 import config.Configuration1;
 import feign.Param;
 import feign.RequestLine;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.netflix.feign.FeignClient;
 
 //使用Feign 默认写法  Configuration1配置为Feign默认

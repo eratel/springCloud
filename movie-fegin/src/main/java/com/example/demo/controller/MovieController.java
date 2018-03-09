@@ -24,4 +24,17 @@ public class MovieController
         return byId;
     }
 
+    @GetMapping("user")
+    public User postUser(User user)
+    {
+        User byId = userFeignClient.postUser(user);
+        return byId;
+    }
+
+    @GetMapping("get-user")
+    public User getUser(User user)
+    {
+        User byId = userFeignClient.getUser(user);
+        return byId;
+    }
 }

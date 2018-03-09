@@ -17,7 +17,8 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableEurekaClient
 //Feign
 @EnableFeignClients
-//hystrix.stream
+//hystrix
+// UserFeignClient 实现了对hystrix的支持
 @EnableCircuitBreaker
 public class MovieFeginHystrixApplication
 {
