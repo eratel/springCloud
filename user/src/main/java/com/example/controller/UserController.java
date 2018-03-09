@@ -5,11 +5,10 @@ import com.example.pojo.User;
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @Author:jikai.sun
@@ -23,9 +22,21 @@ public class UserController
 
     @GetMapping("findone/{id}")
     public User findById(@PathVariable Long id){
+        System.out.print(id);
        return userRepository.findOne(id);
     }
 
+    @PostMapping("/user")
+    public User postUser(@RequestBody User user){
+        return user;
+    }
+
+    @GetMapping("/get-user")
+    public User getUser(User user){
+        return user;
+    }
+
+    @Qualifier("eurekaClient")
     @Autowired
     private EurekaClient eurekaClient;
 
