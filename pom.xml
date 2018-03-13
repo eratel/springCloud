@@ -22,6 +22,7 @@
 		<module>movie-fegin-hystrix</module>
 		<module>hystrix-turbine</module>
 		<module>movie-hystrix</module>
+		<module>movie-hystrix-dashboard</module>
 	</modules>
 
 	<parent>

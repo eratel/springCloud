@@ -12,5 +12,11 @@ eureka:
 turbine:
   aggregator:
     clusterConfig: default
-  appConfig: MOVIE-FEGIN-HYSTRIX
+  appConfig: MOVIE-FEGIN-HYSTRIX,MOVIE-FEGIN-HYSTRIX-8868,MOVIE-HYSTRIX
   clusterNameExpression: "'default'"
+
+#配置之后可以在查看trubine的访问路径
+logging:
+  level:
+    root: INFO
+    com.netflix.turbine.monitor: DEBUG
