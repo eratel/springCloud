@@ -23,6 +23,8 @@ public class FileUploadController {
    * @return 文件在服务器上的绝对路径
    * @throws IOException IO异常
    */
+  //http://10.10.10.204:8040/zuul/movie/v1/microservice-file-upload/upload
+
   @RequestMapping(value = "/upload", method = RequestMethod.POST)
   public @ResponseBody String handleFileUpload(@RequestParam(value = "file", required = true) MultipartFile file) throws IOException {
     byte[] bytes = file.getBytes();
@@ -30,4 +32,10 @@ public class FileUploadController {
     FileCopyUtils.copy(bytes, fileToSave);
     return fileToSave.getAbsolutePath();
   }
+
+  @RequestMapping(value = "/test", method = RequestMethod.GET)
+  public @ResponseBody String test(){
+    return "abc";
+  }
+
 }
