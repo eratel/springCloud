@@ -23,6 +23,8 @@
 		<module>hystrix-turbine</module>
 		<module>movie-hystrix</module>
 		<module>movie-hystrix-dashboard</module>
+		<module>gateway-zuul</module>
+		<module>gateway-zuul-file-upload</module>
 	</modules>
 
 	<parent>

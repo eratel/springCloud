@@ -10,6 +10,7 @@
 
 	<artifactId>hystrix-turbine</artifactId>
 	<packaging>jar</packaging>
+	<name>hystrix-turbine</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

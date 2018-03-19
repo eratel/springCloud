@@ -8,8 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>movie</name>
-	<description>Demo project for Spring Boot</description>
+	<name>movie-fegin</name>
 
 	<parent>
 		<groupId>com.example</groupId>
