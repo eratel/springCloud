@@ -25,6 +25,7 @@
 		<module>movie-hystrix-dashboard</module>
 		<module>gateway-zuul</module>
 		<module>gateway-zuul-file-upload</module>
+		<module>gateway-zuul-rallback</module>
 	</modules>
 
 	<parent>
