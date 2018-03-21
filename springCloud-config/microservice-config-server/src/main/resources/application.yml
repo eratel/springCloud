@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/JaimeLannisters/SpringConfig.git
+          username: 425359983@qq.com
+          password: Sunjikai.123
+
