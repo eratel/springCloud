@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-config-client" />
+        <module name="microservice-config-client-eureka" />
+        <module name="microservice-config-server" />
+        <module name="microservice-config-server-eureka" />
+        <module name="microservice-eureka-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-config-client" target="1.8" />
+      <module name="microservice-config-client-eureka" target="1.8" />
+      <module name="microservice-config-server" target="1.8" />
+      <module name="microservice-config-server-eureka" target="1.8" />
+      <module name="microservice-eureka-server" target="1.8" />
+      <module name="microservice-spring-cloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

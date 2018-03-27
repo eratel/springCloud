@@ -1,0 +1,19 @@
+#git创建文件RepositoryName要跟ApplicationName相同,并且文件要要以ApplicationName开头
+server:
+  port: 8080
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/JaimeLannisters/{application}
+          username: 425359983@qq.com
+          password: Sunjikai.123
+
+#添加验证
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: password123

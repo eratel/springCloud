@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" filepath="$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-config-client-eureka/microservice-config-client-eureka.iml" filepath="$PROJECT_DIR$/microservice-config-client-eureka/microservice-config-client-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" filepath="$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-config-server-eureka/microservice-config-server-eureka.iml" filepath="$PROJECT_DIR$/microservice-config-server-eureka/microservice-config-server-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-eureka-server/microservice-eureka-server.iml" filepath="$PROJECT_DIR$/microservice-eureka-server/microservice-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8080
+      profile: dev
+      label: master
+      username: user
+      password: password123
+  application:
+    name: springconfig
