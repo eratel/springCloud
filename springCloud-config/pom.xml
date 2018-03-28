@@ -14,6 +14,7 @@
 		<module>microservice-config-client-eureka</module>
 		<module>microservice-config-server-eureka</module>
 		<module>microservice-eureka-server</module>
+		<module>microservice-config-client-refresh-bus</module>
 
 	</modules>
 	
