@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8080
+      profile: dev
+      label: master   # 当configserver的后端存储是Git时，默认就是master 
+    bus:
+      trace:
+        enabled: true
+  application:
+    name: springconfig_T
+  #配置rabbit mq  通过rabbit传送数据进行批量刷新  最好配置在configserver中不要配置在client中
+  #通过/bug/refresh刷新
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
