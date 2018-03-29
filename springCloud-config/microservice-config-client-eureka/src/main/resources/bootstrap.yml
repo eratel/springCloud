@@ -8,11 +8,14 @@ spring:
       label: master
   application:
     name: springconfig_T
-    
 eureka:
   client:
     serviceUrl:
       defaultZone: http://user:123456@localhost:8761/eureka
   instance:
     prefer-ip-address: true
-    
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
