@@ -6,9 +6,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/JaimeLannisters/{application}
+          uri: https://github.com/ABHSY/{application}
           username: 425359983@qq.com
-          password: Sunjikai.123
+          password: 
 
 #添加验证
 security:
