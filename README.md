@@ -19,5 +19,5 @@
  **前端刚入门推荐看:https://github.com/ABHSY/vue-element.git
  * GitHub:https://github.com/ABHSY/VUE-CLI-ELEMENTUI.git
  
- ** 刚入门的小伙伴可以看我的springBoot 集成
+ **刚入门的小伙伴可以看我的springBoot 集成
  * mybatis quartz servert sole task springData
